@@ -128,7 +128,7 @@ a {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
 
     .price {
         padding: 5px;
@@ -139,6 +139,27 @@ a {
     }
 
 }
+
+@media only screen and (max-width: 300px) {
+    .price-info {
+        margin-right: 15px;
+    }
+    .price-info h2 {
+        font-size: 12px;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    .price-info p {
+        font-size: 11px;
+    }
+    .price a {
+        color: hsl(223, 47%, 23%);
+        margin-right: 10px;
+        font-size: 12px;
+    }
+}
+
+
 
 
 
